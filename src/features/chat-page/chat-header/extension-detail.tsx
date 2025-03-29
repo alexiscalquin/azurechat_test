@@ -14,7 +14,7 @@ import { FC } from "react";
 import { chatStore } from "../chat-store";
 
 interface Props {
-  extensions: Array<ExtensionModel>;
+  // extensions: Array<ExtensionModel>;
   chatThreadId: string;
   installedExtensionIds: Array<string> | undefined;
   disabled: boolean;

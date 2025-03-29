@@ -21,7 +21,7 @@ interface ChatPageProps {
   messages: Array<ChatMessageModel>;
   chatThread: ChatThreadModel;
   chatDocuments: Array<ChatDocumentModel>;
-  extensions: Array<ExtensionModel>;
+  // extensions: Array<ExtensionModel>;
 }
 
 export const ChatPage: FC<ChatPageProps> = (props) => {
@@ -46,7 +46,7 @@ export const ChatPage: FC<ChatPageProps> = (props) => {
       <ChatHeader
         chatThread={props.chatThread}
         chatDocuments={props.chatDocuments}
-        extensions={props.extensions}
+        // extensions={props.extensions}
       />
       <ChatMessageContainer ref={current}>
         <ChatMessageContentArea>
