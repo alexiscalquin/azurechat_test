@@ -48,7 +48,7 @@ export default async function Home(props: HomeParams) {
       messages={chatResponse.response}
       chatThread={chatThreadResponse.response}
       chatDocuments={docsResponse.response}
-      // extensions={extensionResponse.response}
+      extensions={extensionResponse.response}
     />
   );
 }
