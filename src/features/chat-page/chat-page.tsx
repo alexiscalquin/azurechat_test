@@ -46,7 +46,7 @@ export const ChatPage: FC<ChatPageProps> = (props) => {
       <ChatHeader
         chatThread={props.chatThread}
         chatDocuments={props.chatDocuments}
-        // extensions={props.extensions}
+        extensions={props.extensions}
       />
       <ChatMessageContainer ref={current}>
         <ChatMessageContentArea>
